@@ -45,4 +45,6 @@ def get_average_heat_level(spicy_foods):
      pass
 
 def create_spicy_food(spicy_foods, spicy_food):
+      spicy_foods.append(new_food)
+    return spicy_foods
     pass
