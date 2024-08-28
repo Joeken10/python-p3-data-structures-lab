@@ -31,9 +31,11 @@ def print_spicy_foods(spicy_foods):
     pass
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
-    pass
+     return next((food for food in spicy_foods if food["cuisine"] == cuisine), None)
+     pass
 
 def print_spiciest_foods(spicy_foods):
+    
     pass
 
 def get_average_heat_level(spicy_foods):
